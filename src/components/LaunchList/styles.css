@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.p-1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+}
+.LaunchList {
+  height: 100vh;
+  overflow: hidden auto;
+  background-color: #ececec;
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgba(0, 0, 0, 0.719);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+  transition: transform .2s; 
+  margin: 2px auto;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.LaunchList__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.LaunchList__item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #919191;
+  cursor: pointer;
+}
+/*  */
+.LaunchList__item:hover {
+  background-color: rgba(85, 85, 85, 0.253);
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Times New Roman', 'serif';
+  color: rgb(26, 66, 153);
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+
+.Launches_sfContainer__sIv8j {
+  display: flex;
+}
+.Launches_failBlock__30v5t {
+  width: 2.5rem;
+  height: 1.3rem;
+  background-color: red;
+}
+
+.Launches_sfContainer__sIv8j-1 {
+  display: flex;
+}
+.Launches_failBlock__30v5t-1{
+  width: 2.5rem;
+  height: 1.3rem;
+  background-color: green;
+}
